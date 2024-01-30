@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+:root {
+  --primary-color: rgb(35, 170, 141);
+  --secondry-color: #fff;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto Slab", serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.welcome {
+  /* border: 2px solid red; */
+  background-color: var(--primary-color);
+  width: 40%;
+  height: 60vh;
+  text-align: center;
+  padding-top: 40vh;
+  color: var(--secondry-color);
+}
+.welcome,
+span {
+  font-size: small;
+}
+.signIn {
+  font-family: "Roboto Slab", serif;
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: smaller;
+  padding: 10px 50px;
+  border-radius: 25px;
+}
+.signIn a {
+  text-decoration: none;
+  color: var(--secondry-color);
+}
+.signIn:hover {
+  cursor: pointer;
+}
+.login {
+  text-align: center;
+  width: 60%;
+  padding-top: 20vh;
+}
+h2 {
+  color: var(--primary-color);
+}
+input {
+  font-family: "Roboto Slab", serif;
+  margin-top: 10px;
+  border: none;
+  padding: 7px 25px;
+  border-radius: 25px;
+  background-color: rgb(231, 255, 247);
+  width: 15rem;
+}
+.signUp {
+  font-family: "Roboto Slab", serif;
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  font-size: smaller;
+  padding: 10px 50px;
+  border-radius: 25px;
+}
+
+.signUp:hover {
+  cursor: pointer;
+}
