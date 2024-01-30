@@ -59,6 +59,7 @@ input {
 }
 .signin-input{
   color: var(--primary-color);
+  background-color: var(--secondry-color);
 }
 .signup-input{
   border: 2px solid var(--primary-color);
